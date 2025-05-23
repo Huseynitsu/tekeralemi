@@ -1,0 +1,209 @@
+.footer {
+  padding-block: 2.5rem 1.5rem;
+  background-color: #F5F5F5;
+  border-radius: 40px 40px 0px 0px;
+}
+.footer-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.footer-banner .banner {
+  max-width: 175px;
+  width: 100%;
+}
+.footer-banner .banner img {
+  max-width: 175px;
+  width: 100%;
+}
+.footer-banner__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer-banner__links a {
+  color: #989898;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.footer-top.flex {
+  row-gap: 32px;
+}
+.footer .contacts-container {
+  display: flex;
+  flex-grow: 1;
+}
+.footer-info-container {
+  max-width: 547px;
+  width: 100%;
+  display: flex;
+}
+.footer-logo {
+  flex: 1 1 175px;
+  width: 175px;
+  max-width: 175px;
+  height: 82px;
+  max-height: 82px;
+}
+.footer .company-name {
+  flex: 1 1 68%;
+  width: 68%;
+  max-width: 68%;
+  padding-inline: 1.5rem 0.8125rem;
+  font-size: 0.875rem;
+}
+.footer-phone, .footer-email {
+  font-size: 1.125rem;
+}
+.footer-phone a, .footer-email a {
+  display: block;
+  color: #D1325E;
+}
+.footer-email {
+  padding-inline: 4.375rem 0.9375rem;
+}
+.footer-socials {
+  margin-left: auto;
+}
+.footer-menu ul {
+  justify-content: space-between;
+  row-gap: 16px;
+  margin: 2.5rem -0.9375rem;
+}
+.footer-menu li {
+  padding-inline: 0.9375rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2;
+  list-style: none;
+}
+.footer-menu li a:hover, .footer-menu li a:active, .footer-menu li a:focus {
+  color: #D1325E;
+}
+.footer-bvi {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1.40625rem 0.9375rem;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.footer-bvi img {
+  margin-right: 1rem;
+}
+.footer-bottom,
+.footer-bottom a {
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #989898;
+}
+.footer-bottom a {
+  text-decoration: underline;
+}
+.footer-bottom-info {
+  margin-right: 0.9375rem;
+}
+.footer-bottom-info .flex {
+  margin-bottom: 0.5rem;
+}
+.footer-bottom-info .flex div:first-child {
+  margin-right: 1.5rem;
+}
+.footer-bottom-add-info {
+  text-align: right;
+}
+.footer-bottom .created-by {
+  margin-top: 0.5rem;
+}
+
+.socials {
+  margin-right: -0.25rem;
+}
+.socials a {
+  width: 3rem;
+  height: 3rem;
+  margin-inline: 0.25rem;
+  border-radius: 50%;
+}
+.socials a:hover, .socials a:active, .socials a:focus {
+  border: 1px solid #D1325E;
+}
+.socials a.telegram {
+  background: #fff url(../img/telegram.svg) no-repeat 50% 50%;
+}
+.socials a.ok {
+  background: #fff url(../img/ok.svg) no-repeat 50% 50%;
+}
+.socials a.vk {
+  background: #fff url(../img/vk.svg) no-repeat 50% 50%;
+}
+
+@media screen and (max-width: 968px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer-bottom-info {
+    text-align: center;
+  }
+  .footer-bottom-info .flex {
+    justify-content: space-between;
+  }
+  .footer-bottom-add-info {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer-info-container {
+    max-width: 438px;
+  }
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-top .contacts-container {
+    max-width: 100%;
+    width: 100%;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .footer-top .company-name {
+    max-width: 60%;
+  }
+  .footer-email {
+    padding: 0;
+  }
+  .footer-socials {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer-top .contacts-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-top .footer-info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+  }
+  .footer-banner {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+/* END Media */
