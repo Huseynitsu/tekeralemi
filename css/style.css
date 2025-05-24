@@ -3414,6 +3414,7 @@ a.open-big-photo:not(.load):before {
     background-color: #fff;
     border-radius: 100px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .footer-bvi img {
