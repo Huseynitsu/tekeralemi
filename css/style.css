@@ -3406,7 +3406,7 @@ a.open-big-photo:not(.load):before {
 }
 
 .footer-bvi {
-    width: 400px;
+    width: 100%;
     justify-content: center;
     margin-bottom: 1.5rem;
     padding: 1.40625rem 0.9375rem;
