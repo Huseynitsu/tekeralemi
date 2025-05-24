@@ -2186,7 +2186,7 @@ body {
     font-size: 24em;
     z-index: -1;
     color: #fcdc4c0f;
-    top: 0;
+    top: 15px;
     opacity: 0.03;
     width: 100%;
     text-align: center;
