@@ -2171,7 +2171,7 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, #f2f4f6 0%, rgba(242, 244, 246, 0.4) 100%);
     padding: 36px 0 40px;
-    margin: 0 140px 100px;
+    margin: 0 40px 100px;
     position: absolute;
     top: -140px;
     z-index: 555;
