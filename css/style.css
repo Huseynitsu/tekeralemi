@@ -1498,7 +1498,7 @@ body {
 .wrapper {
     margin: 0 auto;
     z-index: 5;
-    padding: 0 40px;
+    padding:    40px;
     max-width: 1440px
 }
 
@@ -2170,7 +2170,7 @@ body {
 .small-filter {
     overflow: hidden;
     background: linear-gradient(to bottom, #f2f4f6 0%, rgba(242, 244, 246, 0.4) 100%);
-    padding: 36px 0 40px;
+    /* padding: 36px 0 40px; */
     margin: 0 40px 100px;
     position: absolute;
     top: -140px;
@@ -2179,6 +2179,21 @@ body {
 
 .small-filter .wrapper {
     position: relative;
+}
+
+.small-filter .wrapper img {
+    position: absolute;
+    font-size: 24em;
+    z-index: -1;
+    color: #fcdc4c0f;
+    top: 0;
+    opacity: 0.03;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
+    left: 0;
+    height: 120px;
 }
 
 .small-filter .wrapper::after {
