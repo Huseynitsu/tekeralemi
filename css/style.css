@@ -1498,7 +1498,7 @@ body {
 .wrapper {
     margin: 0 auto;
     z-index: 5;
-    padding:    40px;
+    padding: 40px;
     max-width: 1440px
 }
 
@@ -3555,3 +3555,20 @@ a.open-big-photo:not(.load):before {
 }
 
 /* END Media */
+
+@media screen and (max-width: 1400px) {
+    .footer-info-container {
+        max-width: 70%;
+        align-items: center;
+    }
+
+    .footer .company-name {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-top.flex {
+        align-items: center;
+    }
+}
