@@ -3156,7 +3156,7 @@ a.open-big-photo:not(.load):before {
     right: 1.5rem;
     width: 1.5rem;
     height: 1.5rem;
-    background: url(../img/arrow-red.svg) no-repeat 50% 50%;
+    background: url(/img/arrow-red.svg) no-repeat 50% 50%;
     transition: all 0.3s ease;
 }
 
